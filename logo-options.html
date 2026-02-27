@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eagle on The Hill — Logo Options v2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #0f1923;
+            color: #fff;
+            padding: 60px 40px;
+        }
+        h1 {
+            font-family: 'Playfair Display', serif;
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 12px;
+        }
+        .subtitle {
+            text-align: center;
+            color: #8a9bae;
+            margin-bottom: 60px;
+            font-size: 0.95rem;
+        }
+        .options {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 32px;
+            max-width: 1300px;
+            margin: 0 auto;
+        }
+        .option {
+            background: #172330;
+            border-radius: 20px;
+            padding: 48px 32px 40px;
+            text-align: center;
+            border: 2px solid #243344;
+            transition: border-color 0.3s, box-shadow 0.3s;
+        }
+        .option:hover {
+            border-color: #e8833a;
+            box-shadow: 0 12px 50px rgba(232, 131, 58, 0.15);
+        }
+        .option-number {
+            font-size: 0.7rem;
+            text-transform: uppercase;
+            letter-spacing: 0.2em;
+            color: #5a7a96;
+            margin-bottom: 32px;
+        }
+        .logo-display {
+            margin-bottom: 32px;
+            display: flex;
+            justify-content: center;
+        }
+        .previews {
+            margin-top: 28px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+        .preview-row {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            padding: 14px 20px;
+            border-radius: 10px;
+        }
+        .preview-light {
+            background: #fff;
+        }
+        .preview-dark {
+            background: #0f1923;
+            border: 1px solid #243344;
+        }
+        .preview-row span {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.05rem;
+            font-weight: 500;
+        }
+        .preview-light span { color: #1a1a1a; }
+        .preview-dark span { color: #fff; }
+        .preview-label {
+            font-size: 0.65rem;
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+            color: #5a7a96;
+            text-align: center;
+            margin-top: 2px;
+            margin-bottom: 8px;
+        }
+        .option-name {
+            font-weight: 600;
+            font-size: 1.05rem;
+            margin-bottom: 8px;
+            color: #fff;
+        }
+        .option-desc {
+            font-size: 0.85rem;
+            color: #8a9bae;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Choose Your Eagle — Round 2</h1>
+    <p class="subtitle">Powerful, colourful, commanding. Three new directions — each shown large, in nav context (light & dark).</p>
+
+    <div class="options">
+
+        <!-- Option A: Fierce head-on dive with full colour spectrum -->
+        <div class="option">
+            <div class="option-number">Option A — The Striker</div>
+            <div class="logo-display">
+                <svg width="160" height="160" viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <!-- Outer ring -->
+                    <circle cx="80" cy="80" r="76" fill="none" stroke="#d4a843" stroke-width="2.5" opacity="0.3"/>
+
+                    <!-- Left wing - powerful layered feathers -->
+                    <path d="M80 68 C74 58 62 44 44 34 C36 30 24 28 12 32 C20 38 32 46 44 54 C56 62 70 68 80 70" fill="#c0392b"/>
+                    <path d="M80 68 C72 56 58 42 40 34 C32 30 22 30 14 34 C22 40 36 48 50 58 C62 66 74 70 80 70" fill="#e74c3c" opacity="0.8"/>
+                    <path d="M44 34 C36 28 24 22 12 24 C18 30 28 34 38 36" fill="#f39c12" opacity="0.7"/>
+                    <path d="M12 32 C8 30 4 32 2 36 C8 36 14 34 12 32" fill="#e67e22" opacity="0.6"/>
+
+                    <!-- Right wing - powerful layered feathers -->
+                    <path d="M80 68 C86 58 98 44 116 34 C124 30 136 28 148 32 C140 38 128 46 116 54 C104 62 90 68 80 70" fill="#1a5276"/>
+                    <path d="M80 68 C88 56 102 42 120 34 C128 30 138 30 146 34 C138 40 124 48 110 58 C98 66 86 70 80 70" fill="#2980b9" opacity="0.8"/>
+                    <path d="M116 34 C124 28 136 22 148 24 C142 30 132 34 122 36" fill="#3498db" opacity="0.7"/>
+                    <path d="M148 32 C152 30 156 32 158 36 C152 36 146 34 148 32" fill="#5dade2" opacity="0.6"/>
+
+                    <!-- Body -->
+                    <path d="M72 70 C74 66 78 62 80 60 C82 62 86 66 88 70 C88 80 86 90 84 96 C82 100 78 100 76 96 C74 90 72 80 72 70" fill="#2c3e50"/>
+
+                    <!-- Chest highlight -->
+                    <path d="M76 72 C78 68 82 68 84 72 C84 78 82 86 80 88 C78 86 76 78 76 72" fill="#f5b041" opacity="0.5"/>
+
+                    <!-- Head -->
+                    <ellipse cx="80" cy="56" rx="8" ry="9" fill="#2c3e50"/>
+                    <ellipse cx="80" cy="54" rx="6.5" ry="7" fill="#f4d03f"/>
+
+                    <!-- Crown feathers -->
+                    <path d="M74 48 C73 42 74 36 76 32 C77 38 76 44 76 48" fill="#e67e22" opacity="0.8"/>
+                    <path d="M80 46 C80 40 81 34 82 30 C83 36 82 42 82 46" fill="#d4a843"/>
+                    <path d="M86 48 C87 42 86 36 84 32 C83 38 84 44 84 48" fill="#e67e22" opacity="0.8"/>
+
+                    <!-- Eyes - fierce, golden -->
+                    <ellipse cx="75" cy="52" rx="2.5" ry="2.8" fill="#fff"/>
+                    <ellipse cx="85" cy="52" rx="2.5" ry="2.8" fill="#fff"/>
+                    <ellipse cx="75.5" cy="52" rx="1.5" ry="1.8" fill="#e67e22"/>
+                    <ellipse cx="84.5" cy="52" rx="1.5" ry="1.8" fill="#e67e22"/>
+                    <circle cx="75.5" cy="52" r="0.8" fill="#1a1a1a"/>
+                    <circle cx="84.5" cy="52" r="0.8" fill="#1a1a1a"/>
+
+                    <!-- Beak - sharp hooked -->
+                    <path d="M80 58 L76 64 L80 62 L84 64 Z" fill="#e8a030"/>
+                    <path d="M80 58 L78 61 L80 60 L82 61 Z" fill="#f5c563"/>
+
+                    <!-- Tail feathers -->
+                    <path d="M74 98 L66 120 L72 114 L76 124 L80 116 L84 124 L88 114 L94 120 L86 98" fill="#c0392b" opacity="0.6"/>
+                    <path d="M76 100 L70 116 L76 110 L80 118 L84 110 L90 116 L84 100" fill="#1a5276" opacity="0.5"/>
+
+                    <!-- Green hill at base -->
+                    <path d="M16 142 C16 142 36 126 56 130 C68 132 74 138 80 136 C86 134 92 128 108 130 C124 132 144 142 144 142 Z" fill="#27ae60" opacity="0.4"/>
+                    <path d="M8 148 C8 148 30 136 54 138 C66 139 76 144 80 142 C84 140 94 136 112 138 C132 140 152 148 152 148 Z" fill="#2ecc71" opacity="0.25"/>
+                </svg>
+            </div>
+            <div class="option-name">The Striker</div>
+            <p class="option-desc">Head-on eagle in a power dive. Deep red and royal blue wings, golden head with fierce amber eyes, crown feathers. Bold, commanding, full colour.</p>
+
+            <div class="previews">
+                <p class="preview-label">Nav size — light</p>
+                <div class="preview-row preview-light">
+                    <svg width="40" height="40" viewBox="0 0 160 160" fill="none">
+                        <path d="M80 68 C74 58 62 44 44 34 C36 30 24 28 12 32 C20 38 32 46 44 54 C56 62 70 68 80 70" fill="#c0392b"/>
+                        <path d="M80 68 C72 56 58 42 40 34 C32 30 22 30 14 34 C22 40 36 48 50 58 C62 66 74 70 80 70" fill="#e74c3c" opacity="0.8"/>
+                        <path d="M80 68 C86 58 98 44 116 34 C124 30 136 28 148 32 C140 38 128 46 116 54 C104 62 90 68 80 70" fill="#1a5276"/>
+                        <path d="M80 68 C88 56 102 42 120 34 C128 30 138 30 146 34 C138 40 124 48 110 58 C98 66 86 70 80 70" fill="#2980b9" opacity="0.8"/>
+                        <path d="M72 70 C74 66 78 62 80 60 C82 62 86 66 88 70 C88 80 86 90 84 96 C82 100 78 100 76 96 C74 90 72 80 72 70" fill="#2c3e50"/>
+                        <ellipse cx="80" cy="56" rx="8" ry="9" fill="#2c3e50"/>
+                        <ellipse cx="80" cy="54" rx="6.5" ry="7" fill="#f4d03f"/>
+                        <ellipse cx="75" cy="52" rx="2" ry="2.2" fill="#fff"/>
+                        <ellipse cx="85" cy="52" rx="2" ry="2.2" fill="#fff"/>
+                        <circle cx="75" cy="52" r="1" fill="#1a1a1a"/>
+                        <circle cx="85" cy="52" r="1" fill="#1a1a1a"/>
+                        <path d="M80 58 L76 64 L80 62 L84 64 Z" fill="#e8a030"/>
+                    </svg>
+                    <span>Eagle on The Hill</span>
+                </div>
+                <p class="preview-label">Nav size — dark</p>
+                <div class="preview-row preview-dark">
+                    <svg width="40" height="40" viewBox="0 0 160 160" fill="none">
+                        <path d="M80 68 C74 58 62 44 44 34 C36 30 24 28 12 32 C20 38 32 46 44 54 C56 62 70 68 80 70" fill="#e74c3c"/>
+                        <path d="M80 68 C86 58 98 44 116 34 C124 30 136 28 148 32 C140 38 128 46 116 54 C104 62 90 68 80 70" fill="#3498db"/>
+                        <path d="M72 70 C74 66 78 62 80 60 C82 62 86 66 88 70 C88 80 86 90 84 96 C82 100 78 100 76 96 C74 90 72 80 72 70" fill="#ecf0f1"/>
+                        <ellipse cx="80" cy="56" rx="8" ry="9" fill="#34495e"/>
+                        <ellipse cx="80" cy="54" rx="6.5" ry="7" fill="#f4d03f"/>
+                        <circle cx="75" cy="52" r="1" fill="#fff"/>
+                        <circle cx="85" cy="52" r="1" fill="#fff"/>
+                        <path d="M80 58 L76 64 L80 62 L84 64 Z" fill="#f5c563"/>
+                    </svg>
+                    <span>Eagle on The Hill</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Option B: Side profile swooping eagle, colourful plumage -->
+        <div class="option">
+            <div class="option-number">Option B — The Raptor</div>
+            <div class="logo-display">
+                <svg width="160" height="160" viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <!-- Upper wing sweep -->
+                    <path d="M30 72 C38 56 52 40 72 34 C82 32 90 36 96 42 C86 38 72 36 56 42 C44 48 36 60 30 72" fill="#e74c3c"/>
+                    <path d="M96 42 C106 32 122 24 142 30 C134 36 122 40 112 44 C104 48 98 44 96 42" fill="#c0392b"/>
+                    <path d="M142 30 C150 28 156 32 158 38 C152 36 146 34 142 30" fill="#e67e22"/>
+
+                    <!-- Lower wing with gradient feathers -->
+                    <path d="M30 72 C34 80 44 88 60 90 C72 90 84 84 92 74 C82 84 66 92 52 90 C40 88 32 80 30 72" fill="#8e44ad" opacity="0.7"/>
+                    <path d="M30 72 C26 66 18 58 10 54 C16 58 24 64 30 72" fill="#9b59b6" opacity="0.5"/>
+
+                    <!-- Body -->
+                    <path d="M92 42 C96 44 102 50 104 58 C106 66 102 76 96 82 C94 74 92 60 92 42" fill="#2c3e50"/>
+                    <path d="M94 50 C98 52 102 58 102 66 C100 70 96 74 94 72 C94 66 94 58 94 50" fill="#f39c12" opacity="0.4"/>
+
+                    <!-- Head - large, detailed -->
+                    <ellipse cx="102" cy="38" rx="10" ry="11" fill="#2c3e50" transform="rotate(-10 102 38)"/>
+                    <ellipse cx="102" cy="36" rx="8" ry="8.5" fill="#f4d03f" transform="rotate(-10 102 36)"/>
+                    <ellipse cx="102" cy="34" rx="6" ry="6.5" fill="#f5b041" transform="rotate(-10 102 34)"/>
+
+                    <!-- Eye - large fierce -->
+                    <ellipse cx="106" cy="34" rx="3.5" ry="3.5" fill="#fff"/>
+                    <ellipse cx="106.5" cy="34" rx="2.2" ry="2.5" fill="#e67e22"/>
+                    <circle cx="106.5" cy="34" r="1.2" fill="#1a1a1a"/>
+                    <circle cx="107" cy="33.5" r="0.4" fill="#fff"/>
+
+                    <!-- Brow ridge -->
+                    <path d="M100 30 C102 28 108 28 112 30" stroke="#c87a20" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+
+                    <!-- Beak - strong hooked -->
+                    <path d="M112 36 L124 40 L120 42 L112 40" fill="#e8a030"/>
+                    <path d="M112 36 L122 39 L120 40 L112 38" fill="#f5c563"/>
+                    <path d="M124 40 L122 44 L120 42" fill="#c87a20"/>
+
+                    <!-- Tail -->
+                    <path d="M36 76 C30 84 22 96 16 108 C24 104 34 92 40 82" fill="#c0392b" opacity="0.5"/>
+                    <path d="M34 78 C28 88 20 100 14 112 C22 108 32 96 38 84" fill="#2980b9" opacity="0.4"/>
+                    <path d="M32 80 C26 90 18 104 12 116 C20 112 30 100 36 86" fill="#8e44ad" opacity="0.3"/>
+
+                    <!-- Green hills -->
+                    <path d="M4 140 Q30 118 60 126 Q90 134 120 120 Q140 112 156 120 L156 148 L4 148 Z" fill="#27ae60" opacity="0.35"/>
+                    <path d="M4 146 Q40 128 70 134 Q100 140 130 130 Q148 124 156 130 L156 152 L4 152 Z" fill="#2ecc71" opacity="0.2"/>
+                </svg>
+            </div>
+            <div class="option-name">The Raptor</div>
+            <p class="option-desc">Side profile in a powerful swoop. Crimson and violet wing feathers, golden head with a strong hooked beak. Eye detail makes it feel alive and intense.</p>
+
+            <div class="previews">
+                <p class="preview-label">Nav size — light</p>
+                <div class="preview-row preview-light">
+                    <svg width="40" height="40" viewBox="0 0 160 160" fill="none">
+                        <path d="M30 72 C38 56 52 40 72 34 C82 32 90 36 96 42 C86 38 72 36 56 42 C44 48 36 60 30 72" fill="#e74c3c"/>
+                        <path d="M96 42 C106 32 122 24 142 30 C134 36 122 40 112 44 C104 48 98 44 96 42" fill="#c0392b"/>
+                        <path d="M30 72 C34 80 44 88 60 90 C72 90 84 84 92 74 C82 84 66 92 52 90 C40 88 32 80 30 72" fill="#8e44ad" opacity="0.7"/>
+                        <path d="M92 42 C96 44 102 50 104 58 C106 66 102 76 96 82 C94 74 92 60 92 42" fill="#2c3e50"/>
+                        <ellipse cx="102" cy="38" rx="10" ry="11" fill="#2c3e50" transform="rotate(-10 102 38)"/>
+                        <ellipse cx="102" cy="36" rx="8" ry="8.5" fill="#f4d03f" transform="rotate(-10 102 36)"/>
+                        <ellipse cx="106" cy="34" rx="3" ry="3" fill="#fff"/>
+                        <circle cx="106.5" cy="34" r="1.5" fill="#1a1a1a"/>
+                        <path d="M112 36 L124 40 L120 42 L112 40" fill="#e8a030"/>
+                        <path d="M124 40 L122 44 L120 42" fill="#c87a20"/>
+                    </svg>
+                    <span>Eagle on The Hill</span>
+                </div>
+                <p class="preview-label">Nav size — dark</p>
+                <div class="preview-row preview-dark">
+                    <svg width="40" height="40" viewBox="0 0 160 160" fill="none">
+                        <path d="M30 72 C38 56 52 40 72 34 C82 32 90 36 96 42 C86 38 72 36 56 42 C44 48 36 60 30 72" fill="#e74c3c"/>
+                        <path d="M96 42 C106 32 122 24 142 30 C134 36 122 40 112 44 C104 48 98 44 96 42" fill="#c0392b"/>
+                        <path d="M30 72 C34 80 44 88 60 90 C72 90 84 84 92 74 C82 84 66 92 52 90 C40 88 32 80 30 72" fill="#9b59b6" opacity="0.7"/>
+                        <path d="M92 42 C96 44 102 50 104 58 C106 66 102 76 96 82 C94 74 92 60 92 42" fill="#ecf0f1"/>
+                        <ellipse cx="102" cy="38" rx="10" ry="11" fill="#34495e" transform="rotate(-10 102 38)"/>
+                        <ellipse cx="102" cy="36" rx="8" ry="8.5" fill="#f4d03f" transform="rotate(-10 102 36)"/>
+                        <ellipse cx="106" cy="34" rx="3" ry="3" fill="#fff"/>
+                        <circle cx="106.5" cy="34" r="1.5" fill="#fff"/>
+                        <path d="M112 36 L124 40 L120 42 L112 40" fill="#f5c563"/>
+                        <path d="M124 40 L122 44 L120 42" fill="#e8a030"/>
+                    </svg>
+                    <span>Eagle on The Hill</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Option C: Wings spread wide, chest forward, colourful and regal -->
+        <div class="option">
+            <div class="option-number">Option C — The Monarch</div>
+            <div class="logo-display">
+                <svg width="160" height="160" viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <!-- Left wing spread wide — layered colourful feathers -->
+                    <path d="M80 62 C70 50 52 36 30 28 C20 24 10 26 4 30 C14 36 28 44 42 52 C56 60 72 64 80 64" fill="#1a5276"/>
+                    <path d="M80 62 C68 48 48 34 26 28 C16 26 8 28 4 32 C14 38 32 48 48 56 C62 62 76 66 80 66" fill="#2980b9" opacity="0.85"/>
+                    <path d="M30 28 C20 22 10 20 4 24 C10 28 18 30 26 30" fill="#3498db" opacity="0.6"/>
+                    <path d="M4 30 C0 28 -2 32 0 36 C4 34 4 32 4 30" fill="#5dade2" opacity="0.5"/>
+
+                    <!-- Right wing -->
+                    <path d="M80 62 C90 50 108 36 130 28 C140 24 150 26 156 30 C146 36 132 44 118 52 C104 60 88 64 80 64" fill="#c0392b"/>
+                    <path d="M80 62 C92 48 112 34 134 28 C144 26 152 28 156 32 C146 38 128 48 112 56 C98 62 84 66 80 66" fill="#e74c3c" opacity="0.85"/>
+                    <path d="M130 28 C140 22 150 20 156 24 C150 28 142 30 134 30" fill="#e67e22" opacity="0.6"/>
+                    <path d="M156 30 C160 28 162 32 160 36 C156 34 156 32 156 30" fill="#f39c12" opacity="0.5"/>
+
+                    <!-- Body / chest - rich -->
+                    <path d="M72 64 C74 58 78 54 80 52 C82 54 86 58 88 64 C90 76 88 90 86 98 C84 104 76 104 74 98 C72 90 70 76 72 64" fill="#2c3e50"/>
+
+                    <!-- Chest plate - golden -->
+                    <path d="M75 66 C77 60 83 60 85 66 C86 74 84 84 80 88 C76 84 74 74 75 66" fill="#f39c12" opacity="0.6"/>
+                    <path d="M77 70 C78 66 82 66 83 70 C83 76 82 82 80 84 C78 82 77 76 77 70" fill="#f5b041" opacity="0.5"/>
+
+                    <!-- Head -->
+                    <ellipse cx="80" cy="46" rx="10" ry="12" fill="#2c3e50"/>
+                    <ellipse cx="80" cy="44" rx="8.5" ry="10" fill="#f4d03f"/>
+                    <ellipse cx="80" cy="42" rx="7" ry="8" fill="#f5b041"/>
+
+                    <!-- Crown feathers - colourful plumage -->
+                    <path d="M72 36 C70 26 72 18 76 12 C76 20 74 28 74 36" fill="#e74c3c" stroke="#c0392b" stroke-width="0.5"/>
+                    <path d="M77 34 C76 24 78 16 80 10 C82 18 82 26 81 34" fill="#f39c12" stroke="#e67e22" stroke-width="0.5"/>
+                    <path d="M88 36 C90 26 88 18 84 12 C84 20 86 28 86 36" fill="#2980b9" stroke="#1a5276" stroke-width="0.5"/>
+                    <path d="M84 34 C84 24 82 16 80 10 C78 18 80 26 82 34" fill="#e67e22" stroke="#d4a843" stroke-width="0.5"/>
+
+                    <!-- Eyes - large, fierce, amber -->
+                    <ellipse cx="74" cy="42" rx="3.2" ry="3.5" fill="#fff"/>
+                    <ellipse cx="86" cy="42" rx="3.2" ry="3.5" fill="#fff"/>
+                    <ellipse cx="74.5" cy="42" rx="2" ry="2.5" fill="#e67e22"/>
+                    <ellipse cx="85.5" cy="42" rx="2" ry="2.5" fill="#e67e22"/>
+                    <circle cx="74.5" cy="42" r="1" fill="#1a1a1a"/>
+                    <circle cx="85.5" cy="42" r="1" fill="#1a1a1a"/>
+                    <circle cx="75" cy="41.5" r="0.4" fill="#fff"/>
+                    <circle cx="86" cy="41.5" r="0.4" fill="#fff"/>
+
+                    <!-- Brow ridges -->
+                    <path d="M69 38 C71 36 76 36 78 38" stroke="#c87a20" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+                    <path d="M82 38 C84 36 89 36 91 38" stroke="#c87a20" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+
+                    <!-- Beak -->
+                    <path d="M80 50 L74 58 L80 56 L86 58 Z" fill="#e8a030"/>
+                    <path d="M80 50 L77 54 L80 53 L83 54 Z" fill="#f5c563"/>
+
+                    <!-- Tail -->
+                    <path d="M72 100 L62 128 L70 118 L76 130 L80 120 L84 130 L90 118 L98 128 L88 100" fill="#8e44ad" opacity="0.45"/>
+                    <path d="M74 102 L66 124 L72 116 L78 126 L80 118 L82 126 L88 116 L94 124 L86 102" fill="#2980b9" opacity="0.35"/>
+
+                    <!-- Green hills -->
+                    <path d="M8 144 C8 144 32 128 56 132 C68 134 76 140 80 138 C84 136 92 130 112 132 C132 134 152 144 152 144 Z" fill="#27ae60" opacity="0.4"/>
+                    <path d="M2 150 C2 150 28 138 52 140 C64 141 76 146 80 144 C84 142 96 138 116 140 C136 142 158 150 158 150 Z" fill="#2ecc71" opacity="0.25"/>
+                </svg>
+            </div>
+            <div class="option-name">The Monarch</div>
+            <p class="option-desc">Chest-forward, wings fully spread. Red and blue plumage, golden chest plate, multicolour crown feathers, fierce amber eyes, brow ridges. The most regal and powerful.</p>
+
+            <div class="previews">
+                <p class="preview-label">Nav size — light</p>
+                <div class="preview-row preview-light">
+                    <svg width="40" height="40" viewBox="0 0 160 160" fill="none">
+                        <path d="M80 62 C70 50 52 36 30 28 C20 24 10 26 4 30 C14 36 28 44 42 52 C56 60 72 64 80 64" fill="#1a5276"/>
+                        <path d="M80 62 C68 48 48 34 26 28 C16 26 8 28 4 32 C14 38 32 48 48 56 C62 62 76 66 80 66" fill="#2980b9" opacity="0.85"/>
+                        <path d="M80 62 C90 50 108 36 130 28 C140 24 150 26 156 30 C146 36 132 44 118 52 C104 60 88 64 80 64" fill="#c0392b"/>
+                        <path d="M80 62 C92 48 112 34 134 28 C144 26 152 28 156 32 C146 38 128 48 112 56 C98 62 84 66 80 66" fill="#e74c3c" opacity="0.85"/>
+                        <path d="M72 64 C74 58 78 54 80 52 C82 54 86 58 88 64 C90 76 88 90 86 98 C84 104 76 104 74 98 C72 90 70 76 72 64" fill="#2c3e50"/>
+                        <path d="M75 66 C77 60 83 60 85 66 C86 74 84 84 80 88 C76 84 74 74 75 66" fill="#f39c12" opacity="0.6"/>
+                        <ellipse cx="80" cy="46" rx="10" ry="12" fill="#2c3e50"/>
+                        <ellipse cx="80" cy="44" rx="8.5" ry="10" fill="#f4d03f"/>
+                        <ellipse cx="74" cy="42" rx="2.5" ry="2.8" fill="#fff"/>
+                        <ellipse cx="86" cy="42" rx="2.5" ry="2.8" fill="#fff"/>
+                        <circle cx="74.5" cy="42" r="1.2" fill="#1a1a1a"/>
+                        <circle cx="85.5" cy="42" r="1.2" fill="#1a1a1a"/>
+                        <path d="M80 50 L74 58 L80 56 L86 58 Z" fill="#e8a030"/>
+                        <path d="M72 36 C70 26 72 18 76 12 C76 20 74 28 74 36" fill="#e74c3c"/>
+                        <path d="M77 34 C76 24 78 16 80 10 C82 18 82 26 81 34" fill="#f39c12"/>
+                        <path d="M88 36 C90 26 88 18 84 12 C84 20 86 28 86 36" fill="#2980b9"/>
+                    </svg>
+                    <span>Eagle on The Hill</span>
+                </div>
+                <p class="preview-label">Nav size — dark</p>
+                <div class="preview-row preview-dark">
+                    <svg width="40" height="40" viewBox="0 0 160 160" fill="none">
+                        <path d="M80 62 C70 50 52 36 30 28 C20 24 10 26 4 30 C14 36 28 44 42 52 C56 60 72 64 80 64" fill="#2980b9"/>
+                        <path d="M80 62 C90 50 108 36 130 28 C140 24 150 26 156 30 C146 36 132 44 118 52 C104 60 88 64 80 64" fill="#e74c3c"/>
+                        <path d="M72 64 C74 58 78 54 80 52 C82 54 86 58 88 64 C90 76 88 90 86 98 C84 104 76 104 74 98 C72 90 70 76 72 64" fill="#ecf0f1"/>
+                        <path d="M75 66 C77 60 83 60 85 66 C86 74 84 84 80 88 C76 84 74 74 75 66" fill="#f39c12" opacity="0.6"/>
+                        <ellipse cx="80" cy="46" rx="10" ry="12" fill="#34495e"/>
+                        <ellipse cx="80" cy="44" rx="8.5" ry="10" fill="#f4d03f"/>
+                        <ellipse cx="74" cy="42" rx="2.5" ry="2.8" fill="#fff"/>
+                        <ellipse cx="86" cy="42" rx="2.5" ry="2.8" fill="#fff"/>
+                        <circle cx="74.5" cy="42" r="1.2" fill="#fff"/>
+                        <circle cx="85.5" cy="42" r="1.2" fill="#fff"/>
+                        <path d="M80 50 L74 58 L80 56 L86 58 Z" fill="#f5c563"/>
+                        <path d="M72 36 C70 26 72 18 76 12 C76 20 74 28 74 36" fill="#e74c3c"/>
+                        <path d="M77 34 C76 24 78 16 80 10 C82 18 82 26 81 34" fill="#f39c12"/>
+                        <path d="M88 36 C90 26 88 18 84 12 C84 20 86 28 86 36" fill="#3498db"/>
+                    </svg>
+                    <span>Eagle on The Hill</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
